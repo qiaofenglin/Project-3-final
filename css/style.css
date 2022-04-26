@@ -81,34 +81,11 @@
 	#map{width: 100%;height: 400px;margin-top: -200px;}
 	#googleMap{width: 100%;height: 400px;}
 	.spider{width: 4px;height: 5px;background: BLACK;position: absolute;border-radius: 50%;}
-    #num {
-        position: absolute;
-        right: 400px;
-        top:250px;
-    }
+    #num {position: absolute;right: 400px;top:250px;}
 
-	#num li {
-        float: left;
-        width: 8px;
-        height: 8px;
-        margin: 5px;
-        border-radius: 50%;
-        border: 1px solid #FFFFFF;
-        line-height: 20px;
-        background: transparent;
-        text-align: center;
-        list-style-type: none;
-
-    }
-
-    #num li.active {
-        background:  #fefefe;
-    }
-
-    #pic li {
-        display: none;
-        z-index: 1;
-    } 
+	#num li{float:left;width:8px;height:8px;margin:5px;border-radius:50%;border:1px solid #FFFFFF;line-height:20px;background:transparent;text-align:center;list-style-type:none}
+	#num li.active{background:#fefefe}
+	#pic li{display:none;z-index:1}
 
 }
 @media screen and (max-width: 800px){
@@ -192,42 +169,10 @@
 	#myphoto{ width: 300px;height: 300px;}
 	.myvideo{ width: 320px;height: 240px;}
 
-    #num {
-        position: absolute;
-        right: 400px;
-        top:250px;
-    }
+    #num {position: absolute;right: 400px;top:250px;}
 
-	#num li {
-        float: right;
-        width: 8px;
-        height: 8px;
-        margin: 5px;
-        border-radius: 50%;
-        border: 1px solid #FFFFFF;
-        line-height: 20px;
-        background: transparent;
-        text-align: center;
-        list-style-type: none;
-
-    }
-
-    #num li.active {
-        background:  #fefefe;
-    }
-
-    #pic li {
-        display: none;
-        z-index: 1;
-    } 
-
-
-    #left {
-        left: 0;
-    }
-
-    #right {
-        right: 0;
-    }
+	#num li{float:left;width:8px;height:8px;margin:5px;border-radius:50%;border:1px solid #FFFFFF;line-height:20px;background:transparent;text-align:center;list-style-type:none}
+	#num li.active{background:#fefefe}
+	#pic li{display:none;z-index:1}
 
 }
